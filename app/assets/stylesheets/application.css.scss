@@ -15,7 +15,21 @@
  */
 @import 'bootstrap-sprockets';
 @import 'bootstrap';
+//Gradient courtesy of @_ighosh from uiGradients.com
+body {
+    background: #336b87;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #90AFC5, #336b87 );  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #90AFC5, #336b87); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
 
 h1, h2, h3 {
     font-family: 'Oswald', sans-serif;
+}
+
+.navbar {
+    background: #292e49;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to bottom, #536976, #292e49);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to bottom, #536976, #292e49); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    border: none;
 }
