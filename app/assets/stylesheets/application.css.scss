@@ -40,7 +40,7 @@ h1, h2, h3 {
     background: linear-gradient(to bottom, #536976, #292e49); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     border: none;
 }
-
+/*Website Logo on navbar */
 .navbar-brand {
     font-family: 'Lobster', cursive;
     font-weight: 500;
@@ -58,4 +58,12 @@ h1, h2, h3 {
 .about-content {
     font-family: 'Roboto Condensed', sans-serif;
     font-size: 15px;
+}
+/* Hamburger menu */
+.navbar-default .navbar-toggle .icon-bar {
+    background-color: #f3f1e1 ;
+}
+
+.navbar-default .navbar-toggle {
+    border: 2px solid #f3f1e1;
 }
