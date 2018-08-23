@@ -36,17 +36,11 @@ h1, h2, h3 {
     background: linear-gradient(to bottom, #536976, #292e49); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     border: none;
 }
-.navbar-default .navbar-brand{
-    color: #f3f1e1;
-}
-.navbar-default .navbar-brand:hover{
-    color: #f3f1e1;
-    opacity: 0.75;
-}
+.navbar-default .navbar-brand,
 .navbar-default .navbar-nav > li > a {
-     color: #f3f1e1;
-}
-.navbar-default .navbar-nav > li > a:hover {
-     color: #f3f1e1;
-     opacity: 0.75;
+    color: #f3f1e1;
+    &:hover {
+        color: #f3f1e1;
+        opacity: 0.75;
+    }
 }
