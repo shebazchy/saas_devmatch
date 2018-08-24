@@ -54,6 +54,10 @@ h1, h2, h3 {
         opacity: 0.75;
     }
 }
+.navbar-default .navbar-nav > li > a {
+    font-family: 'Oswald', sans-serif;
+    font-weight: 500;
+}
 
 .about-content {
     font-family: 'Roboto Condensed', sans-serif;
